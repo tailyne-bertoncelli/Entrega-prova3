@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+#principal{
+    position: relative;
+    width: 1920px;
+    height: 2400px;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 220px;
+    width: 1920px;
+    height: 92px;
+    left: 0px;
+    top: 0px;
+    background: #043873;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 191px;
+    height: 34px;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-imagem{
+    display: flex;
+    width: 37px;
+    height: 29px;
+    top: 31.5px;
+}
+
+.logo-texto{
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: white;
+    width: 144px;
+    height: 34px;
+    left: 47px;
+    top: 0px;
+}
+
+.opcoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 71px;
+
+    width: 551.5px;
+    height: 24px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+}
+
+.testando{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 60px;
+
+    width: 988.5px;
+    height: 60px;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 377px;
+    height: 60px;
+}
+
+.botao-login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 40px;
+    gap: 10px;
+
+    width: 126px;
+    height: 60px;
+
+    background: #FFE492;
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    border: 0px;
+    color: #043873;
+
+}
+
+.botao-try{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 10px;
+
+    width: 227px;
+    height: 60px;
+
+    background: #4F9CF9;
+    border-radius: 8px;
+    border: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFF;  
+}
+
+.pagina1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 140px 220px 0px;
+    isolation: isolate;
+
+    position: absolute;
+    width: 1920px;
+    height: 927px;
+    left: 0px;
+    top: 92px;
+
+    background: #043873;
+}
+
+.fundo-pag1{
+    position: absolute;
+    width: 2651.8px;
+    left: calc(50% - 2651.8px/2 - 0.1px);
+    top: 23.19%;
+    bottom: 10.82%;
+    
+    opacity: 0.3;
+}
+
+.alinha-text-pag1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 1480px;
+    height: 131px;
+}
+
+.texto1-pag1{
+    display: flex;
+    width: 1480px;
+    height: 77px;
+    margin: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.texto2-pag1{
+    width: 1480px;
+    height: 30px;
+    margin: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.botao-pag1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+
+    width: 219px;
+    height: 63px;
+
+    background: #4F9CF9;
+    border-radius: 8px;
+    border: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+
+.pagina2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 220px 0px 224px;
+    gap: 100px;
+
+    position: absolute;
+    height: 100vh;
+    left: -5px;
+    top: 1019px;
+    margin-top: 319.5px;
+}
+
+.alinhamento-pag2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 100px;
+
+    width: 1476px;
+    height: 661px;
+}
+
+.img-pag2{
+    display: flex;
+    justify-content: center;
+}
+
+.alinha-pag2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    isolation: isolate;
+
+    width: 666px;
+    height: 171px;
+}
+
+.texto1-pag2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 87px;
+    letter-spacing: -0.02em;
+
+    color: #212529;
+    margin: 0px;
+}
+
+.texto2-pag2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+
+    letter-spacing: -0.02em;
+
+    color: #212529;
+    margin: 0px;
+}
+
+.botao-pag2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    gap: 10px;
+
+    width: 186px;
+    height: 63px;
+
+    background: #4F9CF9;
+    border-radius: 6px;
+    border: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color:#FFFFFF;
+    gap: 60px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 29px 220px 32px;
+    gap: 200px;
+    position: absolute;
+    width: 1920px;
+    height: 81px;
+    left: 0px;
+    top: 2319px;
+    background:#043873;
+}
+
+.texto-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 60px;
+
+    width: 700px;
+    height: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.icones-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+
+    width: 105px;
+    height: 16.68px;
+}
